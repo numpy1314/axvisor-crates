@@ -1,7 +1,3 @@
-# axvisor-crates
-
-Reusable crates list for [axvisor](https://github.com/arceos-hypervisor/axvisor).
-
 | Crate | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[crates.io](crates.io)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Documentation | Description |
 |----|:--:|:--:|----|
 | [axvisor](https://github.com/arceos-hypervisor/axvisor) | N/A | [![Docs.rs](https://img.shields.io/badge/docs-pages-green)](https://arceos-hypervisor.github.io/axvisor) | . |

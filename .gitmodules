@@ -1,0 +1,36 @@
+[submodule "crates/axvisor"]
+	path = crates/axvisor
+	url = https://github.com/arceos-hypervisor/axvisor.git
+[submodule "crates/axvm"]
+	path = crates/axvm
+	url = https://github.com/arceos-hypervisor/axvm.git
+[submodule "crates/axvcpu"]
+	path = crates/axvcpu
+	url = https://github.com/arceos-hypervisor/axvcpu.git
+[submodule "crates/axaddrspace"]
+	path = crates/axaddrspace
+	url = https://github.com/arceos-hypervisor/axaddrspace.git
+[submodule "crates/arm_vcpu"]
+	path = crates/arm_vcpu
+	url = https://github.com/arceos-hypervisor/arm_vcpu.git
+[submodule "crates/arm_vgic"]
+	path = crates/arm_vgic
+	url = https://github.com/arceos-hypervisor/arm_vgic.git
+[submodule "crates/x86_vcpu"]
+	path = crates/x86_vcpu
+	url = https://github.com/arceos-hypervisor/x86_vcpu.git
+[submodule "crates/x86_vlapic"]
+	path = crates/x86_vlapic
+	url = https://github.com/arceos-hypervisor/x86_vlapic.git
+[submodule "crates/riscv_vcpu"]
+	path = crates/riscv_vcpu
+	url = https://github.com/arceos-hypervisor/riscv_vcpu.git
+[submodule "crates/axdevice"]
+	path = crates/axdevice
+	url = https://github.com/arceos-hypervisor/axdevice.git
+[submodule "crates/axdevice_crates"]
+	path = crates/axdevice_crates
+	url = https://github.com/arceos-hypervisor/axdevice_crates.git
+[submodule "crates/axvmconfig"]
+	path = crates/axvmconfig
+	url = https://github.com/arceos-hypervisor/axvmconfig.git
