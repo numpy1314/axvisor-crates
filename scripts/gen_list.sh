@@ -2,18 +2,13 @@
 
 ROOT=https://github.com/arceos-hypervisor
 CRATES=(
-    "axvisor"
-    "axvm"
-    "axvcpu"
-    "axaddrspace"
     "arm_vcpu"
     "arm_vgic"
+    "arm_gicv2"
     "x86_vcpu"
     "x86_vlapic"
     "riscv_vcpu"
-    "axdevice"
-    "axdevice_base"
-    "axvmconfig"
+    "axvisor_api"
 )
 
 
