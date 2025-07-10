@@ -19,3 +19,6 @@
 [submodule "crates/axvisor_api"]
 	path = crates/axvisor_api
 	url = https://github.com/arceos-hypervisor/axvisor_api.git
+[submodule "crates/axaddrspace"]
+	path = crates/axaddrspace
+	url = https://github.com/arceos-hypervisor/axaddrspace.git

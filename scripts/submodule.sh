@@ -16,6 +16,7 @@ REPOS=(
     "x86_vlapic"
     "riscv_vcpu"
     "axvisor_api"
+    "axaddrspace"
 )
 
 mkdir -p crates

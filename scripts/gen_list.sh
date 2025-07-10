@@ -9,6 +9,7 @@ CRATES=(
     "x86_vlapic"
     "riscv_vcpu"
     "axvisor_api"
+    "axaddrspace"
 )
 
 
