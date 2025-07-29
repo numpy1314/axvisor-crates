@@ -22,3 +22,6 @@
 [submodule "crates/axaddrspace"]
 	path = crates/axaddrspace
 	url = https://github.com/arceos-hypervisor/axaddrspace.git
+[submodule "crates/axvirtio"]
+	path = crates/axvirtio
+	url = https://github.com/arceos-hypervisor/axvirtio.git

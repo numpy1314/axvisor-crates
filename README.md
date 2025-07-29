@@ -14,3 +14,4 @@ Reusable crates list for [axvisor](https://github.com/arceos-hypervisor/axvisor)
 | [riscv_vcpu](https://github.com/arceos-hypervisor/riscv_vcpu) | N/A | N/A | . |
 | [axvisor_api](https://github.com/arceos-hypervisor/axvisor_api) | N/A | N/A | . |
 | [axaddrspace](https://github.com/arceos-hypervisor/axaddrspace) | N/A | N/A | ArceOS-Hypervisor guest address space management module. |
+| [axvirtio](https://github.com/arceos-hypervisor/axvirtio) | N/A | N/A | VirtIO device framework for ArceOS-Hypervisor. |
