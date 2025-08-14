@@ -17,20 +17,27 @@ REPOS=(
     "riscv_vcpu"
     "axvisor_api"
     "axaddrspace"
+    "axdevice_crates"
+    "axvmconfig"
+    "axvcpu"
+    "axvirtio"
 )
 
 mkdir -p crates
 
 for repo in ${REPOS[@]};
 do
-    if [ $cmd == "init" ]; then
+    if [ "$cmd" == "init" ]; then
         git submodule add $ROOT/$repo.git crates/$repo
-    elif [ $cmd == "pull" ]; then
+    elif [ "$cmd" == "pull" ]; then
         pushd crates/$repo > /dev/null
         git pull origin main
         popd > /dev/null
+    elif [ "$cmd" == "update" ]; then
+        git submodule update --init --remote crates/$repo
     else
         echo "Invalid command: $cmd"
+        echo "Valid commands: init, pull, update"
         exit 1
     fi
 done
