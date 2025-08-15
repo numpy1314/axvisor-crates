@@ -10,8 +10,12 @@ CRATES=(
     "riscv_vcpu"
     "axvisor_api"
     "axaddrspace"
+    "axdevice_base"
+    "axvmconfig"
+    "axvcpu"
+    "axvirtio-blk"
+    "axvirtio-common"
 )
-
 
 echo '| Crate | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[crates.io](crates.io)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Documentation | Description |'
 echo '|----|:--:|:--:|----|'
@@ -19,9 +23,12 @@ echo '|----|:--:|:--:|----|'
 for c in ${CRATES[@]};
 do
     subcrate=0
-    platorm_crate=0
-    if [[ $c == axdriver_* ]]; then
+    platform_crate=0
+    if [[ $c == axdevice_* ]]; then
         repo="axdevice_crates"
+        subcrate=1
+    elif [[ $c == axvirtio-* ]]; then
+        repo="axvirtio"
         subcrate=1
     else
         repo="$c"
@@ -31,7 +38,7 @@ do
     if [[ $subcrate == 0 ]]; then
         url="$ROOT/$c"
         toml="crates/$repo/Cargo.toml"
-    elif [[ $platorm_crate == 1 ]]; then
+    elif [[ $platform_crate == 1 ]]; then
         url="$ROOT/$repo/tree/main/platforms/$c"
         toml="crates/$repo/platforms/$c/Cargo.toml"
     else
