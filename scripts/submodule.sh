@@ -11,13 +11,12 @@ ROOT=https://github.com/arceos-hypervisor
 REPOS=(
     "arm_vcpu"
     "arm_vgic"
-    "arm_gicv2"
     "x86_vcpu"
     "x86_vlapic"
     "riscv_vcpu"
     "axvisor_api"
     "axaddrspace"
-    "axdevice_crates"
+    "axdevice_base"
     "axvmconfig"
     "axvcpu"
     "axvirtio"
@@ -29,15 +28,15 @@ for repo in ${REPOS[@]};
 do
     if [ "$cmd" == "init" ]; then
         git submodule add $ROOT/$repo.git crates/$repo
-    elif [ "$cmd" == "pull" ]; then
-        pushd crates/$repo > /dev/null
-        git pull origin main
-        popd > /dev/null
     elif [ "$cmd" == "update" ]; then
         git submodule update --init --remote crates/$repo
+        # git add crates/$repo
+        # git commit -m "update submodule $repo to latest"
+    elif [ "$cmd" == "sync" ]; then
+        git submodule update --init crates/$repo
     else
         echo "Invalid command: $cmd"
-        echo "Valid commands: init, pull, update"
+        echo "Valid commands: init, update, sync"
         exit 1
     fi
 done

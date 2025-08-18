@@ -4,7 +4,6 @@ ROOT=https://github.com/arceos-hypervisor
 CRATES=(
     "arm_vcpu"
     "arm_vgic"
-    "arm_gicv2"
     "x86_vcpu"
     "x86_vlapic"
     "riscv_vcpu"
@@ -24,10 +23,7 @@ for c in ${CRATES[@]};
 do
     subcrate=0
     platform_crate=0
-    if [[ $c == axdevice_* ]]; then
-        repo="axdevice_crates"
-        subcrate=1
-    elif [[ $c == axvirtio-* ]]; then
+    if [[ $c == axvirtio-* ]]; then
         repo="axvirtio"
         subcrate=1
     else
