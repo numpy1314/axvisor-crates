@@ -16,14 +16,14 @@ Reusable crates list for [AxVisor](https://github.com/arceos-hypervisor/axvisor)
 | [axdevice_base](https://github.com/arceos-hypervisor/axdevice_base) | [![Crates.io](https://img.shields.io/crates/v/axdevice_base)](https://crates.io/crates/axdevice_base) | [![Docs.rs](https://docs.rs/axdevice_base/badge.svg)](https://docs.rs/axdevice_base) |N/A| Crates for building emulated device subsystems for ArceOS-hypervisor in the `no_std` environment.           |
 | [axvmconfig](https://github.com/arceos-hypervisor/axvmconfig) | [![Crates.io](https://img.shields.io/crates/v/axvmconfig)](https://crates.io/crates/axvmconfig) | [![Docs.rs](https://docs.rs/axvmconfig/badge.svg)](https://docs.rs/axvmconfig) |N/A| A simple VM configuration tool for ArceOS-Hypervisor. |
 | [axvcpu](https://github.com/arceos-hypervisor/axvcpu) | [![Crates.io](https://img.shields.io/crates/v/axvcpu)](https://crates.io/crates/axvcpu) | [![Docs.rs](https://docs.rs/axvcpu/badge.svg)](https://docs.rs/axvcpu) |N/A| Virtual CPU abstraction for ArceOS hypervisor. |
-| [axvirtio](https://github.com/arceos-hypervisor/axvirtio)   |                                                Hold off on submitting                                                |                                      Hold off on submitting                                       |N/A| VirtIO device framework for ArceOS-Hypervisor.       |
-|[axcpu](https://github.com/arceos-hypervisor/axcpu)|[![Crates.io](https://img.shields.io/crates/v/axcpu)](https://crates.io/crates/axcpu) | [![Docs.rs](https://docs.rs/axcpu/badge.svg)](https://docs.rs/axcpu) |[arceos-org/axcpu](https://github.com/arceos-org/axcpu)|Privileged instruction and structure abstractions for various CPU architectures.|
 | [riscv-h](https://github.com/arceos-hypervisor/riscv-h) | [![Crates.io](https://img.shields.io/crates/v/riscv-h)](https://crates.io/crates/riscv-h) | [![Docs.rs](https://docs.rs/riscv-h/badge.svg)](https://docs.rs/riscv-h) | N/A | RISC-V virtualization-related registers. |
-|[range-alloc](https://github.com/arceos-hypervisor/range-alloc)|[![Crates.io](https://img.shields.io/crates/v/range-alloc)](https://crates.io/crates/range-alloc)|[![Docs.rs](https://docs.rs/range-alloc/badge.svg)](https://docs.rs/range-alloc)|[gfx-rs/range-alloc](https://github.com/arceos-hypervisor/range-alloc)|Generic range allocator under no_std environment.|
-|[axvm](https://github.com/arceos-hypervisor/axvm)|N/A|[![Docs.rs](https://img.shields.io/badge/docs-pages-green)](https://arceos-hypervisor.github.io/axvm)|N/A|.|
-|[axplat-aarch64-dyn](https://github.com/arceos-hypervisor/axplat-aarch64-dyn)|N/A|N/A|N/A|.|
-|[axdevice](https://github.com/arceos-hypervisor/axdevice)|N/A|N/A|N/A|.|
-|[axhvc](https://github.com/arceos-hypervisor/axhvc)|N/A|N/A|N/A|.|
+| [axvirtio](https://github.com/arceos-hypervisor/axvirtio) | Hold off on submitting | Hold off on submitting |N/A| VirtIO device framework for ArceOS-Hypervisor. |
+| [axcpu](https://github.com/arceos-hypervisor/axcpu)|[![Crates.io](https://img.shields.io/crates/v/axcpu)](https://crates.io/crates/axcpu) | [![Docs.rs](https://docs.rs/axcpu/badge.svg)](https://docs.rs/axcpu) |[arceos-org/axcpu](https://github.com/arceos-org/axcpu)|Privileged instruction and structure abstractions for various CPU architectures.|
+| [range-alloc](https://github.com/arceos-hypervisor/range-alloc)|[![Crates.io](https://img.shields.io/crates/v/range-alloc)](https://crates.io/crates/range-alloc)|[![Docs.rs](https://docs.rs/range-alloc/badge.svg)](https://docs.rs/range-alloc)|[gfx-rs/range-alloc](https://github.com/arceos-hypervisor/range-alloc)|Generic range allocator under no_std environment.|
+|[axvm](https://github.com/arceos-hypervisor/axvm)|N/A|[![Docs.rs](https://img.shields.io/badge/docs-pages-green)](https://arceos-hypervisor.github.io/axvm)|N/A|Virtual Machine resource management crate for ArceOS's hypervisor variant.|
+|[axplat-aarch64-dyn](https://github.com/arceos-hypervisor/axplat-aarch64-dyn)|N/A|N/A|N/A|dynamic platform for arceos|
+|[axdevice](https://github.com/arceos-hypervisor/axdevice)|N/A|N/A|N/A|a reusable, OS-agnostic device abstraction layer designed for virtual machines.|
+|[axhvc](https://github.com/arceos-hypervisor/axhvc)|N/A|N/A|N/A|Hypercall code for axvisor|
 
 ## Crate Dependency
 
