@@ -34,3 +34,9 @@
 [submodule "crates/axdevice_base"]
 	path = crates/axdevice_base
 	url = https://github.com/arceos-hypervisor/axdevice_base.git
+[submodule "crates/axvm"]
+	path = crates/axvm
+	url = https://github.com/arceos-hypervisor/axvm.git
+[submodule "crates/riscv-h"]
+	path = crates/riscv-h
+	url = https://github.com/arceos-hypervisor/riscv-h.git

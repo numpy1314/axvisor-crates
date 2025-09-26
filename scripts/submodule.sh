@@ -3,7 +3,7 @@
 cmd=$1
 
 if [ -z $cmd ]; then
-    echo "Usage: $0 <init|pull>"
+    echo "Usage: $0 <init|update|sync>"
     exit 1
 fi
 
