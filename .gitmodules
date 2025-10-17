@@ -40,3 +40,6 @@
 [submodule "crates/riscv-h"]
 	path = crates/riscv-h
 	url = https://github.com/arceos-hypervisor/riscv-h.git
+[submodule "crates/log"]
+	path = crates/log
+	url = git@github.com:rust-lang/log.git
